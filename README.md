@@ -18,18 +18,12 @@ composer install
 php artisan migrate --seed
 ```
 
-2. ejecutar el servidor 
+1. Run serve 
 
 ```php
 php artisan serve
 ```
-3. Enlazar las images
-
-```php
-  php artisan storage:link
-```
-
-4. ejecutar el servidor de npm (laravel mix) =>Fron End
+2. Execute Front-end
 
 ```php
   npm run watch
